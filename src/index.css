@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#root {
+  height: 100%;
+}
+.fullContainer {
+  height: 100%;
+}
+.title {
+  font-size: 20px;
+}
+
+
+/* define global styles here */
+
+.price{
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-width-space {
+  width: 100%;
+  height: 20px;
+}
+
+.hspace{
+  width: 20px;
+}
+
+.vspace{
+  height: 20px;
+}
+
+.centered-text{
+  display: flex;
+  align-items: center;
+}
