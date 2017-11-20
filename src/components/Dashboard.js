@@ -7,13 +7,16 @@ import {
 import { withStyles } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 
+// Impot containers
+import AddTransaction from 'containers/AddTransaction';
+
+// Import components
 import BoardHeader  from 'components/BoardHeader';
 import BoardContent from 'components/BoardContent';
 import BoardFooter  from 'components/BoardFooter';
-
 import Transactions from 'components/Transactions';
 import TransactionDetail from 'components/TransactionDetail';
-import AddTransaction from 'components/AddTransaction';
+
 
 const styles = theme => ({
     root: {
